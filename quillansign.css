@@ -17,7 +17,7 @@
   right: 0;
   width: 100%;
   opacity: 0;
-  transition: .8s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .containerfox:hover .overlay {
