@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.containerfox {
+  position: relative;
+  width: 50%;
+}
+
+.imagegif1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.containerfox:hover .overlay {
+  opacity: 1;
+}
+
+.imagegif2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+</style>
+</head></html>
